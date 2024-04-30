@@ -132,7 +132,7 @@ function scroll_timer(obj) {
 };
 scroll_timer(nav_box);
 // 倒计时
-var inputTime = +new Date('2022-10-12 00:00:00');
+var inputTime = +new Date('2030-10-26 00:00:00');
 var time_boxs = document.querySelectorAll('.time_box');
 function countDown(time) {
     var nowTime = +new Date();
