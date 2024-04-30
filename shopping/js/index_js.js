@@ -91,6 +91,7 @@ for (var i = 0; i < nav_names.length; i++) {
         scroll_timer(nav_box);
     });
 };
+
 // 停留小圆点展示对应的图片和文字高亮
 for (var i = 0; i < ol.children.length; i++) {
     ol.children[i].setAttribute('data-index', i);
